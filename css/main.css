@@ -118,14 +118,14 @@ table {
     opacity: 1; } }
 @-webkit-keyframes circle1 {
   from {
-    -webkit-transform: rotateZ(0deg); }
-  to {
-    -webkit-transform: rotateZ(360deg); } }
-@-webkit-keyframes ccircle {
-  from {
     -webkit-transform: rotateZ(360deg); }
   to {
     -webkit-transform: rotateZ(0deg); } }
+@-webkit-keyframes ccircle {
+  from {
+    -webkit-transform: rotateZ(0deg) scaleX(0.7); }
+  to {
+    -webkit-transform: rotateZ(360deg) scaleX(0.7); } }
 html {
   font-size: 22px; }
 
@@ -212,15 +212,37 @@ html {
       background-size: contain;
       background-repeat: no-repeat;
       z-index: -1; }
+  #site #elipse {
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
   #site #featured_content {
     position: relative;
-    width: 60%;
-    height: 30rem; }
+    border-radius: 50%;
+    margin: 3rem 0 10rem 10vw;
+    width: 40vw;
+    height: 40vw;
+    transform: scaleX(1.5);
+    border: 3px solid #000099; }
+    #site #featured_content .rotate {
+      position: absolute;
+      width: 40vw;
+      height: 40vw; }
+      #site #featured_content .rotate:nth-child(1) {
+        -webkit-animation: circle1 12s infinite linear; }
+        #site #featured_content .rotate:nth-child(1) .featured_link {
+          -webkit-animation: ccircle 12s infinite linear; }
+      #site #featured_content .rotate:nth-child(2) {
+        -webkit-animation: circle1 12s 4s infinite linear; }
+        #site #featured_content .rotate:nth-child(2) .featured_link {
+          -webkit-animation: ccircle 12s 4s infinite linear; }
+      #site #featured_content .rotate:nth-child(3) {
+        -webkit-animation: circle1 12s 8s infinite linear; }
+        #site #featured_content .rotate:nth-child(3) .featured_link {
+          -webkit-animation: ccircle 12s 8s infinite linear; }
   #site .featured_link {
     position: absolute !important;
     padding-bottom: 30% !important;
-    width: 30% !important;
-    -webkit-animation: ccircle 10s infinite linear; }
+    width: 30% !important; }
     #site .featured_link:nth-child(1) {
       top: 0;
       left: 0; }
@@ -230,6 +252,11 @@ html {
     #site .featured_link:nth-child(3) {
       bottom: 0;
       right: 0%; }
+  #site #megaphone {
+    position: absolute;
+    right: 0;
+    margin-top: -18rem;
+    width: 30%; }
   #site #projects_container {
     width: 100%;
     /*border-top: 3px solid $dark_blue;
