@@ -2,14 +2,19 @@ Site = {}
 
 $(document).ready(function(){
   Site.document_height = $(document).height() - $(window).height();
-  $(document).on('scroll', scrollImages);
+  $(document).on('scroll', lockAndScroll);
 
   $('#open_modal').on('click', openModal);
   $('#close_modal').on('click', closeModal);
 
+  Site.projects_container = $('#projects_container')
+
   $(window).on("load", function() {
     Site.image_height = $('.images').height() - $(window).height();
+    Site.project_top = Site.projects_container.offset().top;
   })
+
+
 
   $(window).on('resize', resizeHandler);
 })
@@ -29,9 +34,16 @@ closeModal = function(){
   $('#close_modal').slideToggle();
 }
 
-scrollImages = function(){
+lockAndScroll = function(){
   scroll_pos = $(document).scrollTop();
   proportion = scroll_pos/Site.document_height;
+
+  if (scroll_pos >= Site.project_top){
+    $('#site').addClass('locked');
+  }else{
+    $('#site').removeClass('locked');
+
+  }
 
   $('.images').css('transform', 'translateY(-' + proportion * Site.image_height + 'px)');
 }
