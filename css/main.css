@@ -278,17 +278,17 @@ html {
     /*border-bottom: 3px solid $dark_blue;*/
     text-transform: uppercase; }
   #site .doc_link {
-    background-image: url(/images/homepage/square.svg); }
+    background-image: url(../images/homepage/square.svg); }
     #site .doc_link:hover {
-      background-image: url(/images/homepage/square-fill.svg); }
+      background-image: url(../images/homepage/square-fill.svg); }
   #site .gathering_link {
-    background-image: url(/images/homepage/circle.svg); }
+    background-image: url(../images/homepage/circle.svg); }
     #site .gathering_link:hover {
-      background-image: url(/images/homepage/circle-fill.svg); }
+      background-image: url(../images/homepage/circle-fill.svg); }
   #site .network_link {
-    background-image: url(/images/homepage/triangle.svg); }
+    background-image: url(../images/homepage/triangle.svg); }
     #site .network_link:hover {
-      background-image: url(/images/homepage/triangle-fill.svg); }
+      background-image: url(../images/homepage/triangle-fill.svg); }
   #site .doc_link,
   #site .gathering_link,
   #site .network_link {
