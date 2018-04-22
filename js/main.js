@@ -7,6 +7,8 @@ $(document).ready(function(){
   $('#open_modal').on('click', openModal);
   $('#close_modal').on('click', closeModal);
 
+  $('#hamburger').on('click', toggleNav);
+
   Site.projects_container = $('#projects_container')
 
   $(window).on("load", function() {
@@ -32,6 +34,11 @@ openModal = function(){
 closeModal = function(){
   $('#modal_container').removeClass('show');
   $('#close_modal').slideToggle();
+}
+
+toggleNav = function(){
+  console.log('hello');
+  $('body').toggleClass('nav_show');
 }
 
 lockAndScroll = function(){

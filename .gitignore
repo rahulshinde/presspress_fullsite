@@ -4,3 +4,4 @@
 *.map
 
 *.scssc
+.DS_Store
