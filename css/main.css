@@ -346,10 +346,11 @@ html {
   #site #megaphone {
     margin-top: -1rem;
     width: 40%;
-    margin-left: 25%; }
+    float: right; }
   #site #archive_link_down {
+    clear: both;
     display: block;
-    margin-top: 1rem;
+    padding-top: 2rem;
     width: 70%;
     margin-left: 2rem; }
   #site #clipboard_heading {
