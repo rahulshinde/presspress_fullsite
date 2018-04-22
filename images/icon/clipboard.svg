@@ -4,8 +4,8 @@
 	 viewBox="0 0 456 220" style="enable-background:new 0 0 456 220;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#FFFFFF;stroke: #000099;stroke-width: 2;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;stroke: #000099;stroke-width: 3;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke: #ffe60e;stroke-width: 2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke: #ffe60e;stroke-width: 3;stroke-miterlimit:10;}
 </style>
 <g>
 	<path class="st0" d="M67.6,204.5c-33.2,0-60.1-27-60.1-60.1v-7.7c0-33.2,27-60.1,60.1-60.1h318.7c33.2,0,60.1,27,60.1,60.1v7.7
@@ -17,7 +17,7 @@
 <path class="st2" d="M113,113c0-54.1,51-98,114-98s114,43.9,114,98"/>
 <g>
 	<circle class="st2" cx="227" cy="92" r="42.5"/>
-	<path d="M227,50c23.2,0,42,18.8,42,42s-18.8,42-42,42s-42-18.8-42-42S203.8,50,227,50 M227,49c-23.7,0-43,19.3-43,43s19.3,43,43,43
+	<path class="st1" d="M227,50c23.2,0,42,18.8,42,42s-18.8,42-42,42s-42-18.8-42-42S203.8,50,227,50 M227,49c-23.7,0-43,19.3-43,43s19.3,43,43,43
 		s43-19.3,43-43S250.7,49,227,49L227,49z"/>
 </g>
 </svg>
