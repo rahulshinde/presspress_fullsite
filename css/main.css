@@ -68,47 +68,46 @@ table {
 #site #modal_container {
   text-align: center;
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  width: 70%;
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  columns: 3; }
   #site #modal_container img {
-    width: 20%; }
+    display: block;
+    margin: 1rem auto 0 auto;
+    width: 50%; }
 #site .modal {
   display: inline-block;
   vertical-align: top;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 0 50px #fff;
-  border: 3px solid #000099;
+  text-align: left;
+  /*box-shadow: 0 0 50px #fff;*/
+  /*border: 3px solid $dark_blue;*/
+  font-size: 1rem;
+  line-height: 1.15em;
   padding: 0.65rem;
-  margin: 2rem 4rem;
-  color: #ffcaca; }
+  margin: 0rem 0;
+  width: 100%;
+  color: #000099; }
   #site .modal a:link,
   #site .modal a:visited {
-    color: #ffcaca; }
+    color: #000099; }
   #site .modal a:hover {
     text-decoration: none; }
   #site .modal h1 {
     margin-bottom: 1em; }
   #site .modal h2 {
-    text-decoration: underline;
-    margin-bottom: 1em; }
+    font-style: italic;
+    color: #ffe60e;
+    text-shadow: 0.07rem 0.07rem 0px #000099;
+    margin-bottom: 0.3em;
+    font-size: 1.1rem;
+    line-height: 1.1em; }
   #site .modal ul {
     margin-top: 1em; }
-  #site .modal:nth-of-type(2) {
-    width: 18.25rem; }
-  #site .modal:nth-of-type(3) {
-    width: 17.85rem;
-    margin-top: -10rem; }
-  #site .modal:nth-of-type(4) {
-    width: 10rem; }
-  #site .modal:nth-of-type(5) {
-    margin-top: -10rem;
-    width: 15.75rem; }
-  #site .modal:nth-of-type(6) {
-    width: 16.75rem; }
-  #site .modal:nth-of-type(7) {
-    width: 18.35rem; }
-  #site .modal:nth-of-type(8) {
-    width: 9rem; }
 
 @media screen and (max-width: 1900px) {
   html {
@@ -124,422 +123,19 @@ table {
     font-size: 20px; } }
 @media screen and (max-width: 850px) {
   html {
-    font-size: 18px; }
-
-  #site .modal:nth-of-type(2) {
-    width: 24.5rem;
-    height: 24.5rem;
-    border-radius: 12.25rem; }
-    #site .modal:nth-of-type(2)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(2) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(3) {
-    width: 21.7rem;
-    height: 21.7rem;
-    border-radius: 10.85rem; }
-    #site .modal:nth-of-type(3)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(3) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(4) {
-    width: 10rem; }
-  #site .modal:nth-of-type(5) {
-    width: 23.5rem;
-    height: 23.5rem;
-    border-radius: 11.75rem; }
-    #site .modal:nth-of-type(5)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(5) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(6) {
-    width: 27.5rem;
-    height: 27.5rem;
-    border-radius: 13.75rem; }
-    #site .modal:nth-of-type(6)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(6) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(7) {
-    width: 20.7rem;
-    height: 20.7rem;
-    border-radius: 10.35rem; }
-    #site .modal:nth-of-type(7)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(7) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(8) {
-    width: 18rem;
-    height: 18rem;
-    border-radius: 9rem; }
-    #site .modal:nth-of-type(8)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(8) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); } }
+    font-size: 18px; } }
 @media screen and (max-width: 780px) {
   html {
-    font-size: 16px; }
-
-  #site .modal:nth-of-type(2) {
-    width: 25rem;
-    height: 25rem;
-    border-radius: 12.5rem; }
-    #site .modal:nth-of-type(2)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(2) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(3) {
-    width: 22rem;
-    height: 22rem;
-    border-radius: 11rem; }
-    #site .modal:nth-of-type(3)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(3) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(4) {
-    width: 10rem; }
-  #site .modal:nth-of-type(5) {
-    width: 24rem;
-    height: 24rem;
-    border-radius: 12rem; }
-    #site .modal:nth-of-type(5)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(5) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(6) {
-    width: 28rem;
-    height: 28rem;
-    border-radius: 14rem; }
-    #site .modal:nth-of-type(6)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(6) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(7) {
-    width: 21.1rem;
-    height: 21.1rem;
-    border-radius: 10.55rem; }
-    #site .modal:nth-of-type(7)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(7) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-  #site .modal:nth-of-type(8) {
-    width: 18.1rem;
-    height: 18.1rem;
-    border-radius: 9.05rem; }
-    #site .modal:nth-of-type(8)::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: left;
-      shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-    #site .modal:nth-of-type(8) > span::before {
-      content: '';
-      height: 100%;
-      width: 50%;
-      float: right;
-      shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); } }
+    font-size: 16px; } }
 @media screen and (max-width: 700px) {
   html {
-    font-size: 14px; }
-
-  #site .modal {
-    font-size: 1.4rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem; }
-    #site .modal:nth-of-type(2) {
-      width: 34rem;
-      height: 34rem;
-      border-radius: 17rem; }
-      #site .modal:nth-of-type(2)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(2) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(3) {
-      width: 29.5rem;
-      height: 29.5rem;
-      border-radius: 14.75rem; }
-      #site .modal:nth-of-type(3)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(3) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(4) {
-      width: 16rem; }
-    #site .modal:nth-of-type(5) {
-      width: 32rem;
-      height: 32rem;
-      border-radius: 16rem; }
-      #site .modal:nth-of-type(5)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(5) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(6) {
-      width: 38rem;
-      height: 38rem;
-      border-radius: 19rem; }
-      #site .modal:nth-of-type(6)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(6) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(7) {
-      width: 28.7rem;
-      height: 28.7rem;
-      border-radius: 14.35rem; }
-      #site .modal:nth-of-type(7)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(7) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(8) {
-      width: 25rem;
-      height: 25rem;
-      border-radius: 12.5rem; }
-      #site .modal:nth-of-type(8)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(8) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(9) {
-      width: 90%; } }
+    font-size: 14px; } }
 @media screen and (max-width: 555px) {
   html {
-    font-size: 12px; }
-
-  #site header {
-    display: none; }
-  #site .modal {
-    font-size: 1.6rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem; }
-    #site .modal:nth-of-type(1) {
-      width: 90%;
-      height: auto; }
-    #site .modal:nth-of-type(2) {
-      padding: 3rem;
-      width: 60%;
-      height: auto; }
-    #site .modal:nth-of-type(3) {
-      width: 0;
-      height: 0;
-      border-radius: 0;
-      width: 80%;
-      height: auto; }
-      #site .modal:nth-of-type(3)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(3) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(4) {
-      width: 45%; }
-    #site .modal:nth-of-type(5) {
-      padding: 4rem;
-      width: 80%;
-      height: auto; }
-    #site .modal:nth-of-type(6) {
-      width: 0;
-      height: 0;
-      border-radius: 0;
-      width: 90%;
-      height: auto; }
-      #site .modal:nth-of-type(6)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(6) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(7) {
-      width: 28.7rem;
-      height: 28.7rem;
-      border-radius: 14.35rem;
-      width: 70%;
-      height: auto;
-      padding: 4rem; }
-      #site .modal:nth-of-type(7)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(7) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); }
-    #site .modal:nth-of-type(8) {
-      width: 0;
-      height: 0;
-      border-radius: 0;
-      width: 60%;
-      height: auto; }
-      #site .modal:nth-of-type(8)::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: left;
-        shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%); }
-      #site .modal:nth-of-type(8) > span::before {
-        content: '';
-        height: 100%;
-        width: 50%;
-        float: right;
-        shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); } }
+    font-size: 12px; } }
 @media screen and (max-width: 450px) {
   html {
-    font-size: 11px; }
-
-  #site .modal {
-    font-size: 1.6rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    width: 90% !important;
-    height: auto !important; } }
+    font-size: 11px; } }
 @-webkit-keyframes position_change {
   0% {
     transform: translate(0, 0) rotate(0deg); }
@@ -842,7 +438,7 @@ html {
       opacity: 0;
       width: 100%;
       font-size: 2.2rem;
-      text-shadow: 0px 0px 10px #000099;
+      text-shadow: 0.1rem 0.1rem 0px #000099;
       /*background-color: $dark_blue;*/
       transition: opacity ease 0.3s; }
   #site footer {
@@ -964,5 +560,50 @@ html {
     transform: rotate(-5deg); }
 #site.nav_show #site_navigation {
   transform: translateY(0); }
+
+#site #project_container {
+  margin-top: 2.25rem;
+  margin-bottom: 4rem; }
+#site #project_title {
+  display: block;
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  font-size: 2.42rem;
+  font-style: italic;
+  color: #ffe60e;
+  text-shadow: 0.1rem 0.1rem 0px #000099; }
+#site #project_subheading {
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem; }
+#site img.project_image {
+  display: block;
+  margin-bottom: 2rem; }
+  #site img.project_image.full {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; }
+  #site img.project_image.left {
+    margin-left: 0;
+    width: 60%; }
+  #site img.project_image.right {
+    margin-left: 40%;
+    width: 60%; }
+#site p.project_text {
+  display: block;
+  width: 70%;
+  text-align: justify;
+  margin: auto;
+  font-size: 1.5rem;
+  margin-bottom: 2rem; }
+  #site p.project_text em {
+    font-style: italic; }
+  #site p.project_text strong {
+    font-weight: 800; }
 
 /*# sourceMappingURL=main.css.map */
