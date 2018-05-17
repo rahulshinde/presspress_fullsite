@@ -3,22 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 258 258" style="enable-background:new 0 0 258 258;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFCACA;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:#FF00FF;}
-	.st2{fill:#0000FF;}
-	.st3{fill:#00FFFF;}
-	.st4{fill:#00FF00;}
-	.st5{fill:#FFFF00;}
-	.st6{fill:#FF9900;}
-	.st7{fill:#FF0000;}
-	.st8{fill:#FFFFFF;}
-	.st9{fill:none;stroke:#000099;stroke-width:3;stroke-miterlimit:10;}
-	.st10{fill:#000099;}
-	.st11{fill:#FFFFFF;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
-	.st12{fill:none;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
 </style>
-<circle class="st9" cx="129" cy="129" r="127.5"/>
-<circle class="st10" cx="101.8" cy="89" r="3.9"/>
-<circle class="st10" cx="155.8" cy="89.2" r="3.9"/>
-<path class="st9" d="M161.8,183.9c-9,6.5-20.4,10.4-32.8,10.4s-23.8-3.9-32.8-10.4"/>
+<circle class="st0" cx="129" cy="129" r="127.5"/>
+<circle class="st1" cx="101.8" cy="89" r="3.9"/>
+<circle class="st1" cx="155.8" cy="89.2" r="3.9"/>
+<path class="st0" d="M161.8,183.9c-9,6.5-20.4,10.4-32.8,10.4s-23.8-3.9-32.8-10.4"/>
 </svg>

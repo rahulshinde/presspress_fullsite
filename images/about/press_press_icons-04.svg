@@ -3,28 +3,16 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 230 313" style="enable-background:new 0 0 230 313;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFCACA;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:#FF00FF;}
-	.st2{fill:#0000FF;}
-	.st3{fill:#00FFFF;}
-	.st4{fill:#00FF00;}
-	.st5{fill:#FFFF00;}
-	.st6{fill:#FF9900;}
-	.st7{fill:#FF0000;}
-	.st8{fill:#FFFFFF;}
-	.st9{fill:none;stroke:#000099;stroke-width:3;stroke-miterlimit:10;}
-	.st10{fill:#000099;}
-	.st11{fill:#FFFFFF;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
-	.st12{fill:none;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
 </style>
-<polygon class="st11" points="216.5,48.5 216.5,302.5 13.5,302.5 13.5,16.5 170.5,16.5 "/>
-<polyline class="st12" points="170.5,16.5 170.5,48 215,48 "/>
-<line class="st12" x1="44" y1="69.5" x2="187" y2="69.5"/>
-<line class="st12" x1="44" y1="83.5" x2="187" y2="83.5"/>
-<line class="st12" x1="44" y1="97.5" x2="187" y2="97.5"/>
-<line class="st12" x1="44" y1="111.5" x2="187" y2="111.5"/>
-<line class="st12" x1="44" y1="125.5" x2="187" y2="125.5"/>
-<line class="st12" x1="44" y1="139.5" x2="187" y2="139.5"/>
-<line class="st12" x1="44" y1="153.5" x2="187" y2="153.5"/>
-<line class="st12" x1="44" y1="167.5" x2="187" y2="167.5"/>
+<polygon class="st0" points="216.5,48.5 216.5,302.5 13.5,302.5 13.5,16.5 170.5,16.5 "/>
+<polyline class="st0" points="170.5,16.5 170.5,48 215,48 "/>
+<line class="st0" x1="44" y1="69.5" x2="187" y2="69.5"/>
+<line class="st0" x1="44" y1="83.5" x2="187" y2="83.5"/>
+<line class="st0" x1="44" y1="97.5" x2="187" y2="97.5"/>
+<line class="st0" x1="44" y1="111.5" x2="187" y2="111.5"/>
+<line class="st0" x1="44" y1="125.5" x2="187" y2="125.5"/>
+<line class="st0" x1="44" y1="139.5" x2="187" y2="139.5"/>
+<line class="st0" x1="44" y1="153.5" x2="187" y2="153.5"/>
+<line class="st0" x1="44" y1="167.5" x2="187" y2="167.5"/>
 </svg>
