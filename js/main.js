@@ -16,7 +16,7 @@ $(document).ready(function(){
     Site.project_top = Site.projects_container.offset().top;
   })
 
-
+  $('#featured_content_link').on('click', Site.openUpcomingModal);
 
   $(window).on('resize', resizeHandler);
 })
@@ -53,4 +53,8 @@ lockAndScroll = function(){
   }
 
   $('.images').css('transform', 'translateY(-' + proportion * Site.image_height + 'px)');
+}
+
+Site.openUpcomingModal = function(){
+  $('#featured_content').fadeToggle();
 }

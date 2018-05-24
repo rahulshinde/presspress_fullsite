@@ -3,14 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 456 220" style="enable-background:new 0 0 456 220;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;stroke:#FFE60E;stroke-width:2;stroke-miterlimit:10;}
+	.st0{fill:#000099;stroke:#FFE60E;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#000099;stroke:#FFE60E;stroke-width:2;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M446.9,139.3v-7C447,101.3,419.7,76,386.4,76H67.6C34.3,76,7,101.3,7,132.1v7.1V195h51.8l-0.1-0.2
-	c2.9,0.4,5.9,0.6,8.9,0.6h318.7c3,0,6-0.2,8.9-0.6l-0.1,0.1h51.8L446.9,139.3L446.9,139.3z"/>
+<path class="st0" d="M446.9,139.3v-7c0.1-31-27.2-56.3-60.5-56.3H67.6C34.3,76,7,101.3,7,132.1v7.1V195h51.8l-0.1-0.2
+	c2.9,0.4,5.9,0.6,8.9,0.6h318.7c3,0,6-0.2,8.9-0.6l-0.1,0.1h51.8V139.3L446.9,139.3z"/>
 <path class="st0" d="M113,113c0-54.1,51-98,114-98s114,43.9,114,98"/>
 <g>
-	<circle class="st0" cx="227" cy="83.8" r="34.3"/>
+	
+		<ellipse transform="matrix(0.1735 -0.9848 0.9848 0.1735 105.0858 292.8176)" class="st0" cx="227" cy="83.8" rx="34.3" ry="34.3"/>
 	<path class="st1" d="M227,49.8c18.7,0,33.9,15.2,33.9,33.9s-15.2,33.9-33.9,33.9s-33.9-15.2-33.9-33.9S208.3,49.8,227,49.8 M227,49
 		c-19.2,0-34.8,15.6-34.8,34.8s15.6,34.8,34.8,34.8s34.8-15.6,34.8-34.8S246.2,49,227,49L227,49z"/>
 </g>
