@@ -16,7 +16,10 @@ $(document).ready(function(){
     Site.project_top = Site.projects_container.offset().top;
   })
 
+  // Homepage
   $('#featured_content_link').on('click', Site.openUpcomingModal);
+  $('#clipboard_close').on('click', Site.openUpcomingModal);
+  $('#archive_link_down').on('click', Site.scrollToProjects);
 
   $(window).on('resize', resizeHandler);
 })
@@ -57,4 +60,11 @@ lockAndScroll = function(){
 
 Site.openUpcomingModal = function(){
   $('#featured_content').fadeToggle();
+  $('#bulletin_background').fadeToggle();
+}
+
+Site.scrollToProjects = function(){
+  $('html, body').animate({
+    scrollTop: $("#projects_container").offset().top + 2
+  }, 1000);
 }
