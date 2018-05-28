@@ -723,6 +723,33 @@ html {
   #site .nav_column:nth-of-type(2) {
     border-left: 3px solid #ffe60e;
     border-right: 3px solid #ffe60e; }
+#site.nav_show #nav_about_link {
+  display: block; }
+#site #nav_about_link {
+  display: none;
+  position: fixed;
+  bottom: 0rem;
+  left: 1rem;
+  font-size: 2.3rem;
+  /*text-decoration: underline;*/
+  margin: 1rem 0 4rem 2rem;
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  text-decoration: none;
+  color: #fff;
+  z-index: 10000; }
+  #site #nav_about_link:after {
+    content: '';
+    left: -1.4rem;
+    top: -4.1rem;
+    position: absolute;
+    width: 9rem;
+    height: 11rem;
+    background-image: url(../images/star.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1; }
 #site .nav_sub_heading {
   text-transform: uppercase;
   margin-top: -3rem;
