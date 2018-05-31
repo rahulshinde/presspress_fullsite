@@ -780,17 +780,20 @@ html {
   color: #000099;
   margin-bottom: 2rem; }
 #site .desktop_project_images {
-  display: block;
-  position: absolute;
+  display: inline-block;
   /*top: 15rem;*/
   left: 0;
-  width: calc(55% - 2rem); }
+  width: calc(55% - 2rem);
+  margin-right: 2rem; }
   #site .desktop_project_images img {
     width: 100%; }
 #site .project_image.mobile {
   display: none; }
 #site #project_container {
-  margin-top: 2.25rem;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  /*margin-top: 2.25rem;*/
   margin-bottom: 4rem; }
 #site #project_title {
   display: block;
@@ -835,8 +838,8 @@ html {
 #site p.project_text,
 #site p.caption {
   display: block;
-  width: 30%;
-  margin-left: 55%;
+  /*width: 30%;*/
+  /*margin-left: 55%;*/
   text-align: left;
   /*margin:auto;*/
   font-size: 1rem;
@@ -849,5 +852,16 @@ html {
     font-weight: 600; }
 #site p.project_text {
   /*column-count: 3;*/ }
+#site #related_link_down {
+  clear: both;
+  display: block;
+  /*padding-top: 2rem;*/
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto; }
+  #site #related_link_down:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
