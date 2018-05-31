@@ -107,7 +107,7 @@ table {
   font-weight: 600;
   text-transform: uppercase;
   color: #ffe60e;
-  background-color: #000099;
+  /*background-color: $dark_blue;*/
   font-size: 2rem;
   /*text-shadow: 0.1rem 0.1rem 0px $pink;*/
   /*border: 3px solid $pink;*/
