@@ -101,7 +101,7 @@ table {
 #site .modal_heading {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
-  text-align: left;
+  text-align: center;
   font-family: 'Crimson Text', serif;
   padding-left: 0.5rem;
   font-weight: 600;
@@ -777,7 +777,18 @@ html {
 
 #site.project {
   background-color: #f9cbdf;
-  color: #000099; }
+  color: #000099;
+  margin-bottom: 2rem; }
+#site .desktop_project_images {
+  display: block;
+  position: absolute;
+  /*top: 15rem;*/
+  left: 0;
+  width: calc(55% - 2rem); }
+  #site .desktop_project_images img {
+    width: 100%; }
+#site .project_image.mobile {
+  display: none; }
 #site #project_container {
   margin-top: 2.25rem;
   margin-bottom: 4rem; }
@@ -814,9 +825,8 @@ html {
 #site h2.project_heading {
   display: block;
   font-size: 1rem;
-  text-align: center;
-  width: 70%;
-  margin: auto;
+  width: 30%;
+  margin-left: 55%;
   margin-bottom: 1em; }
   #site h2.project_heading em {
     font-style: italic; }
@@ -825,9 +835,10 @@ html {
 #site p.project_text,
 #site p.caption {
   display: block;
-  width: 70%;
+  width: 30%;
+  margin-left: 55%;
   text-align: left;
-  margin: auto;
+  /*margin:auto;*/
   font-size: 1rem;
   margin-bottom: 2rem; }
   #site p.project_text em,
@@ -837,6 +848,6 @@ html {
   #site p.caption strong {
     font-weight: 600; }
 #site p.project_text {
-  column-count: 3; }
+  /*column-count: 3;*/ }
 
 /*# sourceMappingURL=main.css.map */
