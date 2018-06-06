@@ -20,6 +20,8 @@ $(document).ready(function(){
   $('#featured_content_link').on('click', Site.openUpcomingModal);
   $('#clipboard_close').on('click', Site.openUpcomingModal);
   $('#archive_link_down').on('click', Site.scrollToProjects);
+ $('#project_link_down').on('click', Site.scrollToProjects);
+  Site.startSlideshow();
 
   $(window).on('resize', resizeHandler);
 })
@@ -66,5 +68,19 @@ Site.openUpcomingModal = function(){
 Site.scrollToProjects = function(){
   $('html, body').animate({
     scrollTop: $("#projects_container").offset().top + 2
-  }, 1000);
+  }, 1500);
+}
+
+Site.startSlideshow = function(){
+  count = 0;
+  slides = $('.homepage_slide');
+  setInterval(function(){
+    count = count + 1
+    if (count >= slides.length){
+      count = 0
+    } 
+    slides.removeClass('current');
+    slides.eq(count).addClass('current');
+
+  }, 3000);
 }
