@@ -82,5 +82,5 @@ Site.startSlideshow = function(){
     slides.removeClass('current');
     slides.eq(count).addClass('current');
 
-  }, 3000);
+  }, 1500);
 }
